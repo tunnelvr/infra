@@ -1,0 +1,3 @@
+{
+  services.tunnelvr.enable = true;
+}

@@ -1,0 +1,153 @@
+{
+  "nodes": {
+    "flake-parts": {
+      "inputs": {
+        "nixpkgs-lib": "nixpkgs-lib"
+      },
+      "locked": {
+        "lastModified": 1679737941,
+        "narHash": "sha256-srSD9CwsVPnUMsIZ7Kt/UegkKUEBcTyU1Rev7mO45S0=",
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "rev": "3502ee99d6dade045bdeaf7b0cd8ec703484c25c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    "godot-source": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678112021,
+        "narHash": "sha256-C+1J5N0ETL1qKust+2xP9uB4x9NwrMqIm8aFAivVYQw=",
+        "owner": "godotengine",
+        "repo": "godot",
+        "rev": "170ba337a5d9e4c1e40d63b89dc1ba297b71860b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "godotengine",
+        "ref": "3.5.2-stable",
+        "repo": "godot",
+        "type": "github"
+      }
+    },
+    "nixinate": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1671116920,
+        "narHash": "sha256-QmDGsUUmAGn77UTR7eQJmebl8f3IIUCtmbbAdJqKA3s=",
+        "owner": "matthewcroughan",
+        "repo": "nixinate",
+        "rev": "b4d17b8e2a4abc47e93e1a1c466e0286a63640d8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "matthewcroughan",
+        "repo": "nixinate",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1653060744,
+        "narHash": "sha256-kfRusllRumpt33J1hPV+CeCCylCXEU7e0gn2/cIM7cY=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "dfd82985c273aac6eced03625f454b334daae2e8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-lib": {
+      "locked": {
+        "dir": "lib",
+        "lastModified": 1678375444,
+        "narHash": "sha256-XIgHfGvjFvZQ8hrkfocanCDxMefc/77rXeHvYdzBMc8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "130fa0baaa2b93ec45523fdcde942f6844ee9f6e",
+        "type": "github"
+      },
+      "original": {
+        "dir": "lib",
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1632411313,
+        "narHash": "sha256-lekODc44lVo9/0EwGiX6LoEt2KhiPdcfNopealMJ7n4=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "51bcdc4cdaac48535dabf0ad4642a66774c609ed",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1679705136,
+        "narHash": "sha256-MDlZUR7wJ3PlPtqwwoGQr3euNOe0vdSSteVVOef7tBY=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "8f40f2f90b9c9032d1b824442cfbbe0dbabd0dbd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixinate": "nixinate",
+        "nixpkgs": "nixpkgs_2",
+        "tunnelvr": "tunnelvr"
+      }
+    },
+    "tunnelvr": {
+      "inputs": {
+        "flake-parts": "flake-parts",
+        "godot-source": "godot-source",
+        "nixpkgs": "nixpkgs_3"
+      },
+      "locked": {
+        "lastModified": 1679787247,
+        "narHash": "sha256-ixBNYwzxmhaBzHZqiZVrtdRZD0hlcQCgqzeddsBNfUo=",
+        "owner": "goatchurchprime",
+        "repo": "tunnelvr",
+        "rev": "3c666b2f26be60fa8fdd38f67482b03e1de02840",
+        "type": "github"
+      },
+      "original": {
+        "owner": "goatchurchprime",
+        "ref": "mc/refactor-nix",
+        "repo": "tunnelvr",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
